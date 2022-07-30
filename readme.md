@@ -7,7 +7,7 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 ### The deployed Version Link
 
-[Web Page]()
+[Web Page](https://webpagelp.netlify.app/)
 
 ### SnapShot of the Webpage
 
