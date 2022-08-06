@@ -127,10 +127,8 @@ img[alt=intro-img]{
         margin-top: -10rem;
     }
 }
-@media (min-width: 577px) and (max-width: 768){
+@media (min-width: 577px) and (max-width: 768px){
     nav{
-        padding: 0;
-        margin: 0;
         flex-direction: column;
         align-items: center;
     }
@@ -139,12 +137,13 @@ img[alt=intro-img]{
         margin-bottom: 1rem;
     }
     .nav-items{
-        flex-direction: column;
         align-items: center;
+        width: 50%;
         justify-content: flex-start;
+        padding-left: 2rem;
     }
     .nav-item{
-        padding: 0rem 0 1rem 0;
+        padding: 0rem 1rem 1rem 0;
         margin: 0;
     }
     .intro-section{
@@ -154,11 +153,12 @@ img[alt=intro-img]{
     .left-section{
         position: absolute;
         z-index: 2;
+        height: 25rem;
     }
     .left-section h1{
         margin-left: 0;
         font-size: 3rem;
-        margin-bottom: 0;
+        margin-bottom:  0;
     }
     .left-section h4{
         margin-left: 0;
@@ -168,8 +168,8 @@ img[alt=intro-img]{
         transform: scale(.7);
     }   
     .imgs-div{
-        transform: scale(.4);
-        margin-left: 5rem;
+        transform: scale(.6);
+        margin-left: 9rem;
         margin-top: -10rem;
     }
 }
