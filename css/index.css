@@ -81,21 +81,27 @@ img[alt=intro-img]{
     margin-top: 32.2rem;
     margin-left: 4.4rem;
 }
+.fa-bars{
+    display: none;
+}
 @media (max-width: 576px){
     nav{
         padding: 0;
+        justify-content: flex-start;
         margin: 0;
-        flex-direction: column;
         align-items: center;
     }
     img[alt=logo]{
         width: 5rem;
         margin-bottom: 1rem;
     }
+    .fa-bars{
+        margin-left: 57%;
+        margin-right: 5%;
+        display: block;
+    }
     .nav-items{
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
+        display: none;
     }
     .nav-item{
         padding: 0rem 0 1rem 0;
@@ -129,18 +135,20 @@ img[alt=intro-img]{
 }
 @media (min-width: 577px) and (max-width: 768px){
     nav{
-        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
     }
     img[alt=logo]{
         width: 5rem;
         margin-bottom: 1rem;
     }
+    .fa-bars{
+        margin-left: 60%;
+        margin-right: 5%;
+        display: block;
+    }
     .nav-items{
-        align-items: center;
-        width: 50%;
-        justify-content: flex-start;
-        padding-left: 2rem;
+        display: none;
     }
     .nav-item{
         padding: 0rem 1rem 1rem 0;
